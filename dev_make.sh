@@ -58,6 +58,7 @@ sudo rm -rf Makefile
 sudo rm -rf configure
 sudo cp -Rf auto/configure .
 sudo mkdir -p $baseDir/nginx/logs
+sudo chmod -R 777 $baseDir/nginx/logs
 
 # Copy vscode configuration.
 sudo rm -rf $baseDir/nginx/.vscode
