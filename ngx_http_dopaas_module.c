@@ -186,7 +186,7 @@ ngx_http_footer_body_filter(ngx_http_request_t *r, ngx_chain_t *in)
     u_char *a = (u_char *) "myhead1";
     t = search_headers_in(r, a, 6);
     
-    ngx_str_t s = t->value;
+    //ngx_str_t s = t->value;
     ngx_str_t s2 = ngx_string("123");
 
     if(ngx_strcmp(&s.data,&s2.data)){
