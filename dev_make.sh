@@ -53,11 +53,11 @@ git reset --hard
 git checkout release-1.19.2
 
 # Cleanup already build files.(if necessary)
-sudo mkdir -p $baseDir/logs
 sudo rm -rf objs
 sudo rm -rf Makefile
 sudo rm -rf configure
 sudo cp -Rf auto/configure .
+sudo mkdir -p $baseDir/nginx/logs
 
 # Copy vscode configuration.
 sudo rm -rf $baseDir/nginx/.vscode
