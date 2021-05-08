@@ -65,6 +65,7 @@ sudo cp -rf $baseDir/xcloud-dopaas-nginx/.vscode1 $baseDir/nginx/.vscode
 
 # Copy testing nginx.conf.
 sudo cp -rf $baseDir/xcloud-dopaas-nginx/nginx.conf $baseDir/nginx/conf/nginx.conf
+sudo cp -rf $baseDir/xcloud-dopaas-nginx/html $baseDir/nginx/html
 
 # Rebuild of DoPaaS nginx plugin module.
 sudo ./configure --prefix=$baseDir/nginx \

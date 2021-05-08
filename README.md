@@ -1,23 +1,23 @@
 ## XCloud DoPaaS Nginx
-> DoPaaS平台的nginx插件，实现了统一实时的配置管理
+> The nginx plugin of DoPaaS platform realizes the unified real-time configuration management
 
 
-#### 1. 开发指南
+#### 1. Developer's guide
 ```
 cd ~
 
-# 1.1 拉取 nginx
+# 1.1 Pull nginx.
 git clone https://github.com/nginx/nginx.git
 git checkout release-1.9.9
 
-# 1.2 拉取 DoPaaS nginx 插件
+# 1.2 Pull DoPaaS nginx plugin.
 git clone https://github.com/wl4g/xcloud-dopaas-nginx.git
 
-# 1.3 编译为 gdb 模式的运行包
+# 1.3 Compile to gdb-debug execute package.
 ./dev_make.sh
 ```
 
-注意目录结构: 
+Notes! Directories structure
 ```
 ├── nginx
 │   ├── auto
@@ -46,4 +46,4 @@ git clone https://github.com/wl4g/xcloud-dopaas-nginx.git
 ```
 
 
-[相关参考,debug环境搭建](https://bygeek.cn/2018/04/18/set-up-debugging-envirronment-about-nginx/)
+[Debug environment configuration, Refer:](https://bygeek.cn/2018/04/18/set-up-debugging-envirronment-about-nginx/)
