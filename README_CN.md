@@ -17,7 +17,9 @@ git clone https://github.com/wl4g/xcloud-dopaas-nginx.git
 ./dev_make.sh
 ```
 
-注意目录结构: 
+访问测试：[http://localhost:8080/index.html](http://localhost:8080/index.html)
+
+注意, 目录结构: 
 ```
 ├── nginx
 │   ├── auto

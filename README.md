@@ -17,6 +17,8 @@ git clone https://github.com/wl4g/xcloud-dopaas-nginx.git
 ./dev_make.sh
 ```
 
+Access testing: [http://localhost:8080/index.html](http://localhost:8080/index.html)
+
 Notes! Directories structure
 ```
 ├── nginx
